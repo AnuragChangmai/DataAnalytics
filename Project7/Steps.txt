@@ -1,0 +1,39 @@
+Counted all blanks in the dataset
+
+Following categories had blanks:
+Engine Fuel Type	3
+Engine HP		69
+Engine Cylinders	30
+Number of Doors		6
+
+Blanks were replaced by values searched from the internet as I know these cars
+
+Following changes were made to blanks:
+
+3 blanks in Engine Fuel Type were for the Suzuki Verona -- replaced by 'regular unleaded'
+69 blanks in Engine HP were filled with data from official sources. For multiple engine options, the HP value was kept at entry-level model/base model HP values, as follows:
+-- Fiat 500e -- 94 hp
+-- Lincoln Continental -- 305 hp
+-- Ford Escape -- 168 hp
+-- Honda Fit EV -- 123 hp
+-- Ford Focus -- 143 hp
+-- Ford Freestar -- 193 hp
+-- Mitsubishi i-MiEV -- 63 hp
+-- Chevrolet Impala -- 182 hp
+-- Nissan Leaf -- 110 hp
+-- Mercedes-Benz M-Class -- 328 hp
+-- Lincoln MKZ -- 240 hp
+-- Tesla Model S (2014) -- 302 hp
+-- Tesla Model S (2015) -- 329 hp
+-- Tesla Model S (2016) -- 315 hp
+-- Toyota RAV4 EV -- 154 hp
+-- Kia Soul EV -- 109 hp
+30 blanks in Engine Cylinders were filled as follows:
+-- For electric vehicles Chevrolet Bolt EV, Volkswagen e-Gold, Mitsubishi i-MiEV, and Toyota RAV4 EV, no. of cylinders is 0
+-- For Mazda RX-7 and RX-8, which use Wankel engines, no. of cylinders is 1
+6 blanks in Number of Doors were filled as follows:
+-- Ferrari FF -- 2 doors
+-- Tesla Model S -- 4 doors
+
+Data was cleaned as follows:
+Saab had models as 09-Mar and 09-May. These were actually 9-3 and 9-5 models and were replaced accordingly.

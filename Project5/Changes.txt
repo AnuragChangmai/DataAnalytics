@@ -1,0 +1,52 @@
+1. Columns removed:
+
+color
+director_facebook_likes
+actor_3_facebook_likes
+actor_2_facebook_likes
+actor_1_facebook_likes
+actor_2_name
+actor_3_name
+cast_total_facebook_likes
+facenumber_in_poster
+plot_keywords
+movie_imdb_link
+content_rating
+aspect_ratio
+movie_facebook_likes
+
+2. Null values (if any) removed -- deleted entire row
+
+3. Removed all duplicate values
+
+4. Removed all 'Â ' values at the end of each value in movie_title using Find and Replace on the column
+
+5. Replaced all mistaken accent characters using Find and Replace as follows:
+
+Ã¨ -- è
+Ã© -- é
+Ã¡ -- á
+Ã­ -- í
+Ã§ -- ç
+Ã« -- ë
+Ã¥ -- å
+Ã± -- ñ
+Ã¦ -- æ
+Ã¸ -- Ø
+Ã¼ -- ü
+Ã¶ -- ö
+Ã³ -- ó
+Ã¯ -- ï
+Ã… -- Å
+Ãº -- ú
+Ã‰ -- É
+Ã¤ -- ä
+Ã” -- Ō
+Ã° -- ð
+Ã -- Á
+Ã» -- û
+Ã  -- à
+Ã˜ -- Ø
+Ã´ -- ô
+Ã“ -- Ó
+Ã† -- Æ
